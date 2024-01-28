@@ -1,4 +1,4 @@
-# Lab Report 1
+# Lab_Report_1
 
 ## `cd` Command
 
@@ -19,7 +19,7 @@ command changes the directory to the given arguments if it can be found. No erro
   Input: [user@sahara ~/lecture1/messages]$ cd fr.txt
   Output: bash: cd: fr.txt: Not a directory
 ```
-The working directory was `/lecture1/messages` when the command was ran and remained the same after. 
+The working directory was `/home/lecture1/messages` when the command was ran and remained the same after. 
 The command produced an error because `fr.txt` is a file and not a directory
 
 ```
@@ -40,7 +40,7 @@ directory. No error.
   Input: [user@sahara ~/lecture1/messages]$ ls fr.txt
   Output: Hello.class  Hello.java  messages  README
 ```
-The working directory was `/lecture1/messages`. When `ls` is ran with an file it produces an error because the command only workds
+The working directory was `/home/lecture1/messages`. When `ls` is ran with an file it produces an error because the command only workds
 with directories. Error because fr.txt is not a directory.
 
 ```
