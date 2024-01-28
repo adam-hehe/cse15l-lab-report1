@@ -33,14 +33,14 @@ No error.
   Input: [user@sahara ~]$ ls lecture1
   Output: Hello.class  Hello.java  messages  README
 ```
-The working directory was `/home/lecture1`. When `ls` is ran with an directory it lists the files and directories that are contained within that given
+The working directory was `/home`. When `ls` is ran with an directory it lists the files and directories that are contained within that given
 directory. No error.
 
 ```
   Input: [user@sahara ~/lecture1/messages]$ ls fr.txt
   Output: Hello.class  Hello.java  messages  README
 ```
-The working directory was `/home/lecture1/messages`. When `ls` is ran with an file it produces an error because the command only workds
+The working directory was `/lecture1/messages`. When `ls` is ran with an file it produces an error because the command only workds
 with directories. Error because fr.txt is not a directory.
 
 ```
